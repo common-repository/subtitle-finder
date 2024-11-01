@@ -1,0 +1,33 @@
+﻿.subtitle_finder {
+    text-align:center;
+}
+.subtitle_finder li {
+    list-style-type: none;
+    font: 11px tahoma;
+    background: #222;
+    padding: 5px;
+}
+.subtitle_finder li:nth-child(odd) {
+    background: #333;
+}
+.subtitle_finder li a {
+    color: #fff;
+}
+.subtitle_finder   input[type="text"] , .subtitle_finder select{
+    font: 11px tahoma;
+}
+.subtitle_finder input[type=text] {
+    font: 11px tahoma;
+    width: 64%;
+    height: 25px;
+}
+.subtitle_finder input[type=submit] {
+    height: 33px;
+    font: 11px tahoma;
+}
+.subtitle_finder select {
+    padding: 7px 0;
+}
+.subtitle_finder li a:visited {
+    color: #c7c7c7;
+}
